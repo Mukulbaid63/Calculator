@@ -6,7 +6,6 @@ var keys = calculator.querySelector('.calculator__keys')
 keys.addEventListener('click', e => {
  if (e.target.matches('button')) {
     var key = e.target
-    console.log(e);
 var action = key.dataset.action
 var keyContent = key.textContent
 var displayedNum = input.value
