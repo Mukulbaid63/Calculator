@@ -5,6 +5,7 @@ body{
     background: #303030;
     font-family: 'Open Sans', sans-serif;
 }
+
   
   input{
       width:291.84px;
@@ -44,12 +45,11 @@ body{
     
     width:  116.73599999999999px;}
 #ans{
-    width: 153.6px;
-    
+    width:  116.73599999999999px;    
 }
 #clr{
-    width:161.28px;
-}
+    width:  116.73599999999999px;}
+
 .calculator{
     display: flex;
     flex-direction: column;
@@ -66,4 +66,12 @@ body{
              -20px -20px 60px #2d2c2c;
              position: absolute;
              top:10%;
+}
+.daycol{
+    background-color: #c2c2c2;
+    color: #171717;
+}
+.daycol:hover{
+    color: #c2c2c2;
+    background-color: #171717;
 }
