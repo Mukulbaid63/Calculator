@@ -11,7 +11,7 @@ function modehandler(){
   body.setAttribute("style","background-color:#dedede;")
   calculator.setAttribute("style","background-color:#c2c2c2;box-shadow:20px 20px 60px #a5a5a5,  -20px -20px 60px #dfdfdf;")
   for(let i=0;i<button.length;i++){button[i].classList.add("daycol")}
-  input.setAttribute("style","background-color:#f0f0f0;color:black;")
+  input.setAttribute("style","background-color:#e6e6e6;color:black;")
   darkmode.innerHTML=`<i class="fas fa-moon"></i>`
     modebutton=false;
 }
