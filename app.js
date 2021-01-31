@@ -39,7 +39,8 @@ if (!action) {
   }
   
   if (action === 'ans') {
-   let y=eval(displayedNum);
+   let ya=eval(displayedNum);
+    let y=ya.toPrecision(11)
    input.value=y }
  }
 })
