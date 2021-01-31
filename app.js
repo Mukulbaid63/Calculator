@@ -38,8 +38,8 @@ if (!action) {
   }
   
   if (action === 'ans') {
-   let ya=eval(displayedNum);
-    let y=ya.toPrecision(11)
+   let y=eval(displayedNum);
+
    input.value=y }
  }
 })
