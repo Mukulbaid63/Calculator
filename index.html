@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Nunito:wght@300;400&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <input id="input" value="0" disabled>
+
+    <div class="calculator__keys">
+       <div class="div1"> 
+    <button id="block1">1</button>
+    <button id="block2">2</button>
+    <button id="block3">3</button>
+    <button id="plus" data-action="add">+</button>
+</div>
+<div class="div2"> 
+
+    <button id="block4">4</button>
+    <button id="block5">5</button>
+    <button id="block6">6</button>
+
+    <button id="minus" data-action="minus">-</button>
+
+    </div>
+    <div class="div3"> 
+
+    <button id="block7">7</button>
+    <button id="block8">8</button>
+    <button id="block9">9</button>
+
+    <button id="multiply" data-action="multiply">*</button>
+
+    </div>
+    <div>
+    <button id="block0">0</button>
+    <button id="dot" data-action="dot">.</button>
+    <button id="divide" data-action="divide">/</button>
+</div>
+   
+    <button id="ans" data-action="ans">=</button>
+    <button id="clr" data-action="clr">Clear</button>
+    </div>
+    </div>
+
+    
+    <script src="app.js"></script>
+
+</body>
+</html>
