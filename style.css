@@ -44,11 +44,11 @@ body{
 #dot {
     
     width:  116.73599999999999px;}
-#ans{
+/* #ans{
     width:  116.73599999999999px;    
 }
 #clr{
-    width:  116.73599999999999px;}
+    width:  116.73599999999999px;} */
 
 .calculator{
     display: flex;
